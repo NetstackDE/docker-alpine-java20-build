@@ -7,7 +7,7 @@ RUN apk add -X https://dl-cdn.alpinelinux.org/alpine/v3.16/main -u alpine-keys
 RUN apk update
 
 #Install JAVA and Gradle
-RUN apk add openjdk20
+RUN apk add openjdk21
 
 #Install Bash & git
 RUN apk add bash
